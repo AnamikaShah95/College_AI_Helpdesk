@@ -1,0 +1,82 @@
+[
+  {
+    "category": "academic_calendar",
+    "source": "Tentative Academic Calendar B.Tech Session 2026-27 (III/V/VII Semesters), Ref. ACE/Principal/AC/2026-27, dated 02/07/2026",
+    "status": "Tentative",
+    "department": "all",
+    "semester": "V",
+    "section": "all",
+    "data": {
+      "title": "V Semester Academic Calendar 2026-27",
+      "details": {
+        "commencement": "09-Jul-2026",
+        "unit_1_coverage": "30-Jul-2026",
+        "unit_2_coverage": "21-Aug-2026",
+        "unit_3_coverage": "18-Sep-2026",
+        "first_mid_term": "31-Aug-2026 to 03-Sep-2026",
+        "dussehra_break": "19-Oct-2026 to 20-Oct-2026",
+        "unit_4_coverage": "12-Oct-2026",
+        "diwali_break": "06-Nov-2026 to 10-Nov-2026",
+        "unit_5_coverage": "05-Nov-2026",
+        "internal_practical_exam": "04-05 Nov 2026 and 13-14 Nov 2026",
+        "second_mid_term": "16-Nov-2026 to 19-Nov-2026",
+        "last_working_day": "14-Nov-2026",
+        "preparation_leave": "20-Nov-2026 to 26-Nov-2026",
+        "rtu_university_practical": "After University Examination",
+        "rtu_exams": "27-Nov-2026"
+      }
+    }
+  },
+  {
+    "category": "events",
+    "source": "Official Domain Verse 1.0 event poster",
+    "status": "Verified",
+    "department": "all",
+    "semester": "all",
+    "section": "all",
+    "data": {
+      "title": "Domain Verse 1.0",
+      "description": "A 6-day technical problem-solving program based on real-world problem statements.",
+      "date": "24-Sep-2026 to 30-Sep-2026",
+      "duration": "6 days",
+      "domains": [
+        "Agentic AI",
+        "AWS Cloud Computing",
+        "Cybersecurity",
+        "Data Science",
+        "Data Analytics",
+        "Full Stack Development",
+        "Machine Learning"
+      ],
+      "branches": [
+        "CSE",
+        "CS-AI",
+        "AI&DS",
+        "Cyber",
+        "IT"
+      ],
+      "organizer": "Arya Innovators Club",
+      "partner": "Gemini"
+    }
+  },
+  {
+    "category": "events",
+    "source": "Official Internal Hackathon for Smart India Hackathon 2026 poster",
+    "status": "Verified",
+    "department": "all",
+    "semester": "all",
+    "section": "all",
+    "data": {
+      "title": "Internal Hackathon for Smart India Hackathon 2026",
+      "description": "Internal hackathon conducted by Arya College of Engineering for Smart India Hackathon 2026.",
+      "registration_last_date": "20-Aug-2026",
+      "event_date": "21-Aug-2026 to 22-Aug-2026",
+      "time": "10:00 AM onwards",
+      "venue": "LT-1",
+      "team_size": "Maximum 6 members (1 Leader + 5 Members)",
+      "participation_certificate": true,
+      "organizer": "Arya College of Engineering, Kukas, Jaipur",
+      "purpose": "Work on real-world problem statements and compete to represent ACE at SIH 2026"
+    }
+  }
+]

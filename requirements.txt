@@ -1,0 +1,9 @@
+streamlit
+google-genai
+python-dotenv
+langgraph
+fastapi
+uvicorn
+pydantic
+passlib[bcrypt]
+pandas
