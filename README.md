@@ -49,7 +49,7 @@ An intelligent, context-aware AI College Helpdesk built for **Students, Faculty,
 ---
 
 ## 🏗️ System Architecture
-+-----------------------+
+``
                               |   Streamlit Web UI    |
                               | (Student/Faculty/Staff) |
                               +-----------+-----------+
