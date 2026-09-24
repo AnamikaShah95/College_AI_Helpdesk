@@ -48,34 +48,7 @@ An intelligent, context-aware AI College Helpdesk built for **Students, Faculty,
 
 ---
 
-## 🏗️ System Architecture
-+-----------------------+
-                              |   Streamlit Web UI    |
-                              | (Student/Faculty/Staff) |
-                              +-----------+-----------+
-                                          |
-                                          v
-                               +---------------------+
-                               | Router & Agent Exec |
-                               +----------+----------+
-                                          |
-                 +------------------------+------------------------+
-                 |                                                 |
-                 v                                                 v
-  +-----------------------------+                   +----------------------------+
-  |  Dense Vector Search (RAG)  |                   |  Deterministic Rule Engine |
-  |   (ChromaDB + Gemini AI)    |                   |   (JSON + PDF Local Parser)|
-  +--------------+--------------+                   +--------------+-------------+
-                 |                                                 |
-                 +------------------------+------------------------+
-                                          |
-                                          v
-                              +-----------------------+
-                              | Verified Evidence &   |
-                              | Formatted Output      |
-                              +-----------------------+
 
----
 
 ## 📁 Repository Structure
 
