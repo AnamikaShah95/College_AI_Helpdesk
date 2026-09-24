@@ -1,0 +1,48 @@
+{
+  "academic_calendar": {
+    "V_semester_start": "August 10, 2026",
+    "mid_term_exams": "October 12 - October 17, 2026",
+    "end_term_exams": "December 01 - December 15, 2026",
+    "overall_schedule": "Semester Start: Aug 10, Mid-Terms: Oct 12-17, End-Terms: Dec 01-15, Winter Break: Dec 20-31"
+  },
+  "timetables": {
+    "general": "Classes run Monday through Friday from 09:00 AM to 04:30 PM, split into 50-minute lecture slots.",
+    "AI_DS_Alpha": {
+      "Monday": [
+        {"time": "09:00 - 09:50 AM", "subject": "Computer Graphics & Multimedia (CGM)", "faculty": "Dr. Rajesh Sharma", "room": "Lab 3"},
+        {"time": "09:50 - 10:40 AM", "subject": "Data Structures & Algorithms (DSA)", "faculty": "Prof. Sunita Verma", "room": "Room 204"},
+        {"time": "11:00 - 11:50 AM", "subject": "Artificial Intelligence Fundamentals", "faculty": "Dr. Vidhyansh Tripathi", "room": "Room 205"}
+      ]
+    }
+  },
+  "exams": {
+    "DSA": {
+      "subject": "Data Structures & Algorithms",
+      "date": "October 14, 2026",
+      "time": "10:00 AM - 01:00 PM",
+      "venue": "Block B - Examination Hall 2"
+    }
+  },
+  "events": [
+    {
+      "title": "Arya National Hackathon 2026",
+      "date": "October 28 - October 29, 2026",
+      "venue": "Main Auditorium",
+      "duty_assigned": "Faculty coordination by CSE-AI Department"
+    },
+    {
+      "title": "Annual TechFest Apex 2026",
+      "date": "November 18, 2026",
+      "venue": "College Campus Grounds",
+      "duty_assigned": "General Student & Staff Management"
+    }
+  ],
+  "faculty_assignments": [
+    {"name": "Dr. Rajesh Sharma", "subject": "Computer Graphics & Multimedia (CGM)", "department": "CSE-AI", "assigned_sections": ["AI&DS Alpha"]},
+    {"name": "Prof. Sunita Verma", "subject": "Data Structures & Algorithms (DSA)", "department": "CSE-AI", "assigned_sections": ["AI&DS Alpha", "CSE Beta"]},
+    {"name": "Dr. Vidhyansh Tripathi", "subject": "Artificial Intelligence & Agentic Workflows", "department": "CSE-AI", "assigned_sections": ["AI&DS Alpha"]}
+  ],
+  "notices": [
+    {"id": "CIRCULAR-2026-09", "title": "Mid-Term Attendance Threshold Requirement", "action": "Requires circular distribution to all departmental notice boards by Oct 1, 2026."}
+  ]
+}

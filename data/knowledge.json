@@ -1,82 +1,95 @@
 [
   {
+    "id": "cal-01",
     "category": "academic_calendar",
-    "source": "Tentative Academic Calendar B.Tech Session 2026-27 (III/V/VII Semesters), Ref. ACE/Principal/AC/2026-27, dated 02/07/2026",
-    "status": "Tentative",
     "department": "all",
     "semester": "V",
     "section": "all",
+    "source": "Tentative Academic Calendar B.Tech Session 2026-27 (ACE/Principal/AC/2026-27)",
+    "status": "Tentative",
     "data": {
-      "title": "V Semester Academic Calendar 2026-27",
-      "details": {
-        "commencement": "09-Jul-2026",
-        "unit_1_coverage": "30-Jul-2026",
-        "unit_2_coverage": "21-Aug-2026",
-        "unit_3_coverage": "18-Sep-2026",
-        "first_mid_term": "31-Aug-2026 to 03-Sep-2026",
+      "commencement": "09-Jul-2026",
+      "unit_coverage": {
+        "unit_1_20_percent": "30-Jul-2026",
+        "unit_2_40_percent": "21-Aug-2026",
+        "unit_3_60_percent": "18-Sep-2026",
+        "unit_4_80_percent": "12-Oct-2026",
+        "unit_5_100_percent": "05-Nov-2026"
+      },
+      "mid_terms": {
+        "mid_term_1": "31-Aug-2026 to 03-Sep-2026",
+        "mid_term_2": "16-Nov-2026 to 19-Nov-2026"
+      },
+      "breaks": {
         "dussehra_break": "19-Oct-2026 to 20-Oct-2026",
-        "unit_4_coverage": "12-Oct-2026",
-        "diwali_break": "06-Nov-2026 to 10-Nov-2026",
-        "unit_5_coverage": "05-Nov-2026",
-        "internal_practical_exam": "04-05 Nov 2026 and 13-14 Nov 2026",
-        "second_mid_term": "16-Nov-2026 to 19-Nov-2026",
+        "diwali_break": "06-Nov-2026 to 10-Nov-2026"
+      },
+      "exams": {
+        "internal_practical": "04-05 Nov 2026 and 13-14 Nov 2026",
         "last_working_day": "14-Nov-2026",
         "preparation_leave": "20-Nov-2026 to 26-Nov-2026",
-        "rtu_university_practical": "After University Examination",
-        "rtu_exams": "27-Nov-2026"
+        "rtu_general_exams": "27-Nov-2026"
       }
     }
   },
   {
-    "category": "events",
-    "source": "Official Domain Verse 1.0 event poster",
+    "id": "tt-aids-g",
+    "category": "timetable",
+    "department": "CSE-AIDS",
+    "semester": "V",
+    "section": "Alpha",
+    "source": "Official Timetable Section G (ALPHA) 2026-27 (Eff. 24/08/2026)",
     "status": "Verified",
-    "department": "all",
-    "semester": "all",
-    "section": "all",
     "data": {
-      "title": "Domain Verse 1.0",
-      "description": "A 6-day technical problem-solving program based on real-world problem statements.",
-      "date": "24-Sep-2026 to 30-Sep-2026",
-      "duration": "6 days",
-      "domains": [
-        "Agentic AI",
-        "AWS Cloud Computing",
-        "Cybersecurity",
-        "Data Science",
-        "Data Analytics",
-        "Full Stack Development",
-        "Machine Learning"
-      ],
-      "branches": [
-        "CSE",
-        "CS-AI",
-        "AI&DS",
-        "Cyber",
-        "IT"
-      ],
-      "organizer": "Arya Innovators Club",
-      "partner": "Gemini"
+      "mentor": "Ms. Priyanka Sharma",
+      "faculty_mapping": {
+        "DMCT": "Ms. Jannat Shaikh (JS)",
+        "CD": "Ms. Manjusha Kamboj (MK)",
+        "OS": "Dr. Himanshu Arora (HA)",
+        "CGM": "Dr. Chayan Bhatt (CB)",
+        "AOA": "Ms. Appurva Sharma (AS)",
+        "FoBC": "Ms. Parul Sharma (PAS)",
+        "CGM Lab": "Mr. Lakhanram Meena (LRM)",
+        "CD Lab": "Mr. Jitendra S Sekhawat (JSS)",
+        "AOA Lab": "Ms. Parul Sharma (PAS)"
+      },
+      "schedule": {
+        "monday": [
+          {"period": "I", "subject": "DMCT", "teacher": "Ms. Jannat Shaikh"},
+          {"period": "II", "subject": "OS", "teacher": "Dr. Himanshu Arora"},
+          {"period": "III", "subject": "CGM", "teacher": "Dr. Chayan Bhatt"},
+          {"period": "IV", "subject": "AOA", "teacher": "Ms. Appurva Sharma"},
+          {"period": "V", "subject": "BREAK"},
+          {"period": "VI-VII", "subject": "AOA Lab CL-13", "teacher": "Ms. Parul Sharma"}
+        ]
+      }
     }
   },
   {
+    "id": "evt-01",
     "category": "events",
-    "source": "Official Internal Hackathon for Smart India Hackathon 2026 poster",
-    "status": "Verified",
     "department": "all",
     "semester": "all",
     "section": "all",
+    "source": "Arya Innovators Club Poster Notice",
+    "status": "Verified",
     "data": {
-      "title": "Internal Hackathon for Smart India Hackathon 2026",
-      "description": "Internal hackathon conducted by Arya College of Engineering for Smart India Hackathon 2026.",
-      "registration_last_date": "20-Aug-2026",
-      "event_date": "21-Aug-2026 to 22-Aug-2026",
-      "time": "10:00 AM onwards",
-      "venue": "LT-1",
-      "team_size": "Maximum 6 members (1 Leader + 5 Members)",
-      "participation_certificate": true,
-      "organizer": "Arya College of Engineering, Kukas, Jaipur",
-      "purpose": "Work on real-world problem statements and compete to represent ACE at SIH 2026"
+      "events": [
+        {
+          "name": "Arya's Domain Verse 1.0",
+          "dates": "24 September 2026 to 30 September 2026",
+          "duration": "6 days",
+          "coordinators": "Anish Raj, Moht Kumar, Krish Kumar",
+          "partner": "Gemini"
+        },
+        {
+          "name": "Internal Hackathon for Smart India Hackathon 2026",
+          "venue": "LT-1",
+          "dates": "21–22 August 2026",
+          "registration_deadline": "20 August 2026",
+          "team_size": "Max 6 members (1 leader + 5 members)"
+        }
+      ]
     }
   }
 ]
