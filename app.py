@@ -11,10 +11,7 @@ st.set_page_config(
 )
 
 
-
-
-
-# --- ORIGINAL PASTEL AESTHETIC STYLING ---
+# --- PASTEL AESTHETIC STYLING ---
 st.markdown("""
 <style>
     /* Main Background - Soft Pastel Olive */
@@ -144,7 +141,7 @@ st.markdown("""
         font-weight: 700 !important;
     }
 
-    /* CHAT INPUT CONTAINER & TEXT AREA (Clean White Input Bar) */
+    /* CHAT INPUT CONTAINER & TEXT AREA */
     div[data-testid="stChatInput"] {
         background-color: #FFFFFF !important;
         border-top: 2px solid #BAE6FD !important;
@@ -431,13 +428,18 @@ for role, message in st.session_state.messages:
 # Handle Quick Action or Chat Input
 prompt = st.chat_input("Ask a question about academic calendar, timetable, faculty, or events...")
 
-if st.session_state.pending_query:
+if st.session_state.get("pending_query"):
     prompt = st.session_state.pending_query
     st.session_state.pending_query = None
 
 if prompt:
+    # Snapshot history BEFORE appending new prompt to isolate search context
+    chat_history_snapshot = list(st.session_state.messages)
+    
     st.session_state.messages.append(("user", prompt))
+    
     with st.spinner("Agent planning and searching controlled sources..."):
-        result = run_helpdesk(prompt, user, st.session_state.messages)
+        result = run_helpdesk(prompt, user, chat_history_snapshot)
+        
     st.session_state.messages.append(("assistant", result))
     st.rerun()
